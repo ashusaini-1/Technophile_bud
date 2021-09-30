@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    overflow-x:hidden;
+
+  }
+
+  header>h1{
+text-align: center;
+
+
+  }
+
+
+/*
+  .sec {
+    background-color: green;
+    position: absolute;
+
+
+    height: 40vh;
+    width: 100%;
+    margin-left: -125px;
+  }*/
+
+  .nav-item {
+    margin-top: 10px;
+
+
+  }
+
+  li>a {
+
+    font-size: 30px;
+
+  }
+
+  .content {
+   
+    display: grid;
+    grid-template-columns: 50% 40%;
+    background-color: black;
+
+
+  }
+
+a:hover{
+background-color: cadetblue;
+
+
+}
+.btun:hover{
+  background-color: red;
+}
+
+  .body-content>h1 {
+margin-top: -35%;
+    color: white;
+  }
+
+.body-content>h2,.body-content>p{
+
+margin-top: 6%;
+
+}
+
+.body-content>.btun{
+  background-color: rgb(243, 211, 211);
+    width: 136px;
+    margin-left: 86px;
+    border-radius: 9px;
+}
+
+.container{
+margin-right: 8%;
+background-color: yellow;
+border: 2px solid gray;
+width: 100%;
+box-shadow: 5px 5px 21px 2px grey;
+}
+
+
+
+  .body-content {
+
+    margin-top: 36%;
+
+  }
+
+  .exercise-cycle {
+    position: absolute;
+    height: 60%;
+    width: 75%;
+    margin-top: 6%;
+    margin-left: 52%;
+}
+
+  .btn:hover{
+background-color: chocolate;
+
+  }
+
+
+  .main-content {
+    display: grid;
+    grid-template-columns: 60% 37%;
+    margin-left: 1%;
+    margin-top: 40px;
+  }
+
+
+  .left-content{
+
+margin-top: 6%;
+
+  }
+
+.show-product{
+
+  display: grid;
+    grid-template-columns: 38% 63%;
+    margin-left: 23%;
+margin-top: 2%;
+
+}
+
+
+.product-img{
+
+margin-left: -55%;
+
+
+
+}
+
+.product-content{
+margin-left: -26%;
+
+
+
+}
+
+.images{
+  height: 12vh;
+    width: 8%;
+    border-radius: 35px;
+    margin-left: 47%;
+    margin-top: 5%;
+}
+
+.describe>h3{
+
+margin-left:15%;
+
+
+}
+
+.describe>p{
+
+  text-align: center;
+margin-left:2%;
+
+
+}
+.footer{
+
+  background-color: black;
+    height: 45vh;
+   
+}
+
+.footer>h1,.footer>h5{
+
+text-align: center;
+color: white;
+
+}
+.footer>p{
+text-align: center;
+margin-left: 10%;
+color: white;
+}
+
+
+.btn{
+margin-left: 46%;
+background-color: aqua;
+
+}
