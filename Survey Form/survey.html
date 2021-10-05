@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Survey</title>
+
+<link rel=stylesheet href="/css/style.css">
+  </head>
+
+
+<body>
+   <div class="container" style="background-color: rgb(70, 77, 57);">
+       <h1 class="sv">STUDENT SURVEY</h1>
+   <form action="" method="" name="myform" onsubmit="return validation()">
+
+<label for="sch">School Name</label>
+<input type="text" class="frm" name="form" placeholder="Enter Your School Name">
+
+<label for="college">College Name</label>
+<input type="text" class="frm" name="form" placeholder="Enter Your College Name">
+
+<label for="mob">Phone-no</label>
+<input type="number" class="frm" name="num" placeholder="Enter Your Number">
+
+<label for="email">Email</label>
+<input type="email" class="frm" name="form" placeholder="Enter Your Email">
+
+<label for="dat">Date</label>
+<input type="date" class="frm" placeholder=""><br>
+ 
+<label for="Lng">How long have you been a student here?</label>
+<select class="frm" name="form">
+<option value="">Please Select</option>
+<option value="">Less than a month</option>
+<option value="">1-6 months</option>
+<option value="">6 months to 1 year</option>
+<option value="">More than 1 year</option>
+<option value="">1-3 years</option>
+<option value="">More than 3 years</option>
+
+
+
+
+
+
+
+</select>
+
+<hr>1
+
+<h1 style="font-size: 20px;">Please rate the following aspects of your education.</h1>
+
+<label style="color: gray;">Curriculum and classes for the term</label>
+
+<table class="tab-1">
+<tr>
+<th></th>
+<th>Strongly Disagree</th>
+<th>Disagree</th>
+<th>Neutral</th>
+<th>Agree</th>
+<th>Strongly Agree</th>
+
+</tr>
+
+<tr>
+<td>The class descriptions accurately described the content.</td>
+<td><input type="radio" name="tab1" >
+</td>
+<td><input type="radio" name="tab1" >
+  </td>
+
+
+    <td><input type="radio"  name="tab1">
+       </td>
+
+        <td><input type="radio" name="tab1">
+</td>
+
+            <td><input type="radio"  name="tab1">
+               </td>
+</tr>
+
+<tr>
+<td>I was academically prepared for the classes.</td>
+<td><input type="radio" name="tab2" >
+</td>
+<td><input type="radio" name="tab2" >
+  </td>
+
+
+    <td><input type="radio"  name="tab2">
+       </td>
+
+        <td><input type="radio" name="tab2">
+</td>
+
+            <td><input type="radio"  name="tab2">
+               </td>
+
+
+
+</tr>
+
+
+<tr>
+    <td>The class sizes were appropriate.</td>
+    <td><input type="radio" name="tab3" >
+    </td>
+    <td><input type="radio" name="tab3" >
+      </td>
+    
+    
+        <td><input type="radio"  name="tab3">
+           </td>
+    
+            <td><input type="radio" name="tab3">
+    </td>
+    
+                <td><input type="radio"  name="tab3">
+                   </td>
+    
+    
+    
+    </tr>
+
+    
+<tr>
+    <td>The classes started and ended on time.</td>
+    <td><input type="radio" name="tab4" >
+    </td>
+    <td><input type="radio" name="tab4" >
+      </td>
+    
+    
+        <td><input type="radio"  name="tab4">
+           </td>
+    
+            <td><input type="radio" name="tab4">
+    </td>
+    
+                <td><input type="radio"  name="tab4">
+                   </td>
+    
+    
+    
+    </tr>
+
+
+    
+<tr>
+    <td>The classes increased my knowledge of the subject matter.</td>
+    <td><input type="radio" name="tab5" >
+    </td>
+    <td><input type="radio" name="tab5" >
+      </td>
+    
+    
+        <td><input type="radio"  name="tab5">
+           </td>
+    
+            <td><input type="radio" name="tab5">
+    </td>
+    
+                <td><input type="radio"  name="tab5">
+                   </td>
+    
+    
+    </tr>
+
+
+
+    
+<tr>
+    <td>The overall quality of the classes was excellent.</td>
+    <td><input type="radio" name="tab6" >
+    </td>
+    <td><input type="radio" name="tab6" >
+      </td>
+    
+    
+        <td><input type="radio"  name="tab6">
+           </td>
+    
+            <td><input type="radio" name="tab6">
+    </td>
+    
+                <td><input type="radio"  name="tab6">
+                   </td>
+    
+    
+    </tr>
+
+
+
+
+    <tr>
+        <td>I would recommend these classes to other students.</td>
+        <td><input type="radio" name="tab7" >
+        </td>
+        <td><input type="radio" name="tab7" >
+          </td>
+        
+        
+            <td><input type="radio"  name="tab7">
+               </td>
+        
+                <td><input type="radio" name="tab7">
+        </td>
+        
+                    <td><input type="radio"  name="tab7">
+                       </td>
+        
+        
+        
+        </tr>
+
+
+</table>
+
+
+<h2>Materials</h2>
+
+<table>
+
+
+
+
+
+    
+    <tr>
+    <th></th>
+    <th>Strongly Disagree</th>
+    <th>Disagree</th>
+    <th>Neutral</th>
+    <th>Agree</th>
+    <th>Strongly Agree</th>
+    </tr>
+    
+    <tr>
+    <td>The objectives and requirements for the classes were clearly stated.</td>
+    <td><input type="radio" name="tab8" >
+    </td>
+    <td><input type="radio" name="tab8" >
+      </td>
+    
+    
+        <td><input type="radio"  name="tab8">
+           </td>
+    
+            <td><input type="radio" name="tab8">
+    </td>
+    
+                <td><input type="radio"  name="tab8">
+                   </td>
+
+
+    </tr>
+
+
+    <tr>
+        <td>The textbooks and learning materials were relevant and useful.</td>
+        <td><input type="radio" name="tab9" >
+        </td>
+        <td><input type="radio" name="tab9" >
+          </td>
+        
+        
+            <td><input type="radio"  name="tab9">
+               </td>
+        
+                <td><input type="radio" name="tab9">
+        </td>
+        
+                    <td><input type="radio"  name="tab9">
+                       </td>
+    
+    
+    
+        </tr>
+
+
+        <tr>
+            <td>Tests and assignments were based on material covered in each class.</td>
+            <td><input type="radio" name="tab10" >
+            </td>
+            <td><input type="radio" name="tab10" >
+              </td>
+            
+            
+                <td><input type="radio"  name="tab10">
+                   </td>
+            
+                    <td><input type="radio" name="tab10">
+            </td>
+            
+                        <td><input type="radio"  name="tab10">
+                           </td>
+        
+            </tr>
+
+
+
+
+
+
+
+
+
+
+
+</table>
+
+
+<h2>Instruction</h2>
+
+<table>
+<tr>
+<th></th>
+<th>Strongly Disagree</th>
+<th>Disagree</th>
+<th>Neutral</th>
+<th>Agree</th>
+<th>Strongly Agree</th>
+</tr>
+
+<tr>
+<td>The instructors were qualified to teach these classes.</td>
+<td><input type="radio" name="tab11" >
+</td>
+<td><input type="radio" name="tab11" >
+  </td>
+
+
+    <td><input type="radio"  name="tab11">
+       </td>
+
+        <td><input type="radio" name="tab11">
+</td>
+
+            <td><input type="radio"  name="tab11">
+               </td>
+
+
+</tr>
+
+
+<tr>
+    <td>The instructors demonstrated enthusiasm for the subject matter.</td>
+    <td><input type="radio" name="tab12" >
+    </td>
+    <td><input type="radio" name="tab12" >
+      </td>
+    
+    
+        <td><input type="radio"  name="tab12">
+           </td>
+    
+            <td><input type="radio" name="tab12">
+    </td>
+    
+                <td><input type="radio"  name="tab12">
+                   </td>
+    
+    
+    
+    </tr>
+
+    
+    <tr>
+        <td>The instructors were available and helpful to students outside of class.</td>
+        <td><input type="radio" name="tab13" >
+        </td>
+        <td><input type="radio" name="tab13" >
+          </td>
+        
+        
+            <td><input type="radio"  name="tab13">
+               </td>
+        
+                <td><input type="radio" name="tab13">
+        </td>
+        
+                    <td><input type="radio"  name="tab13">
+                       </td>
+        
+        </tr>
+        
+
+
+</table>
+
+
+<h2>School Environment</h2>
+
+
+<table>
+<tr>
+
+    <th></th>
+<th>Strongly Disagree</th>
+
+<th>Disagree</th>
+<th>Neutral</th>
+<th>Agree</th>
+<th>Strongly Agree</th>
+</tr>
+
+
+<tr>
+
+<td>The physical classroom environments were clean and comfortable.</td>
+<td><input type="radio" name="tab14" >
+</td>
+<td><input type="radio" name="tab14" >
+  </td>
+
+
+    <td><input type="radio"  name="tab14">
+       </td>
+
+        <td><input type="radio" name="tab14">
+</td>
+
+            <td><input type="radio"  name="tab14">
+               </td>
+
+</tr>
+
+
+<tr>
+
+    <td>Library and on-site computers consistently made available.</td>
+    <td><input type="radio" name="tab15" >
+    </td>
+    <td><input type="radio" name="tab15" >
+      </td>
+    
+    
+        <td><input type="radio"  name="tab15">
+           </td>
+    
+            <td><input type="radio" name="tab15">
+    </td>
+    
+                <td><input type="radio"  name="tab15">
+                   </td>
+    
+    
+    </tr>
+
+    
+    
+<tr>
+
+    <td>The common spaces were clean and comfortable.</td>
+    <td><input type="radio" name="tab16" >
+    </td>
+    <td><input type="radio" name="tab16" >
+      </td>
+    
+    
+        <td><input type="radio"  name="tab16">
+           </td>
+    
+            <td><input type="radio" name="tab16">
+    </td>
+    
+                <td><input type="radio"  name="tab16">
+                   </td>
+    </tr>
+
+    
+    
+<tr>
+
+    <td>The school communicated institutional goals and relevant news to students.</td>
+    <td><input type="radio" name="tab17" >
+    </td>
+    <td><input type="radio" name="tab17" >
+      </td>
+    
+    
+        <td><input type="radio"  name="tab17">
+           </td>
+    
+            <td><input type="radio" name="tab17">
+    </td>
+    
+                <td><input type="radio"  name="tab17">
+                   </td>
+    
+    
+    </tr>
+</table>
+
+
+
+<h2>Message</h2>
+
+<textarea rows="10" cols="100" placeholder="Enter your Additional Comments" f></textarea>
+
+
+<button class="btn" type="submit"  onclick="phonenumber(document.myform.num)">Submit</button>
+
+
+    </form>
+
+
+
+</div>
+
+
+</body>
+
+<script>
+
+function validation(){
+
+var x=document.forms["myform"]["form"].value;
+
+if(x==""|| x==null){
+alert("Name must be filled out");
+
+return false;
+}
+
+
+}
+
+
+function phonenumber(inputtxt){
+
+
+
+
+var phoneno=/^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+
+if(inputtxt.value.match(phoneno)){
+
+return true;
+
+}
+
+else{
+
+
+  alert('Enter a valid number');
+  return false;
+}
+
+}
+
+
+var container=document.getElementById("container");
+container.style.height=(window.innerHeight);
+container.style.width=window.innerWidth;
+
+
+</script>
+
+
+
+</html>
